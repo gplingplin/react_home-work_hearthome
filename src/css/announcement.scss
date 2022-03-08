@@ -1,0 +1,16 @@
+.announcement-block {
+  min-height: 171px;
+  background-color: #f1f3f6;
+  border: 1px solid #cccfd3;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  .title {
+    text-align: center;
+    font-size: 24px;
+  }
+  ul {
+    font-size: 14px;
+    padding-right: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+.homePage-basic {
+  background-color: #3c622b;
+  height: 1000px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .main {
+    max-width: 327px;
+  }
+  .card-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

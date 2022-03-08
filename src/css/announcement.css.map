@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,UAAU,EAAE,KAAK;EACjB,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAE,UAAU;EACtB,aAAa,EAAE,IAAI;EACnB,aAAa,EAAE,IAAI;CASpB;;AAfD,AAOE,mBAPiB,CAOjB,MAAM,CAAC;EACL,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CAChB;;AAVH,AAWE,mBAXiB,CAWjB,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "announcement.scss"
+    ],
+    "names": [],
+    "file": "announcement.css"
+}
