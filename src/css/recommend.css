@@ -12,4 +12,8 @@
 .recommend-block p {
   font-size: 18px;
 }
+
+.recommend-block .button-block {
+  text-align: center;
+}
 /*# sourceMappingURL=recommend.css.map */

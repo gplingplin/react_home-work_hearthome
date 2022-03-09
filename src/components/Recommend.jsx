@@ -18,7 +18,9 @@ function Recommend({ data }) {
         我的推薦碼是{code}，快點一起來Home心接案賺錢吧！註冊成功還有{credit}
         元可以領取唷！
       </p>
-      <Button onClick={handlerClick} variant="contained" color="success" disableElevation>點我複製推薦碼</Button>
+      <div className="button-block">
+        <Button onClick={handlerClick} variant="contained" color="success" disableElevation>點我複製推薦碼</Button>
+      </div>
     </div>
   );
 }
