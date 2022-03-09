@@ -5,21 +5,47 @@
   border-radius: 15px;
 }
 
-.card-style h1 {
+.card-style .card-title {
   font-size: 25px;
+  margin: 0 0 8px 8px;
+}
+
+.card-style .mission-card-title {
+  font-size: 25px;
+  margin: 0 0 8px 8px;
+  position: absolute;
+  bottom: 0;
+}
+
+.card-style .img-block {
+  margin-top: 8px;
+  margin-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.card-style .img-position-block {
+  margin-top: 8px;
+  margin-right: 8px;
+  position: absolute;
+  right: 0;
 }
 
 .card-main {
+  position: relative;
   border-radius: 15px;
   width: 100%;
   margin-top: 15px;
-  max-width: 327px;
+  max-width: 100%;
   min-height: 101px;
 }
 
 .card-sub {
   border-radius: 15px;
-  max-width: 155px;
   min-height: 101px;
   width: 48%;
 }

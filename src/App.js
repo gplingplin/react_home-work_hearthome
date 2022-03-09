@@ -2,6 +2,7 @@ import "./App.css";
 import User from "./components/User";
 import Announcement from "./components/Announcement";
 import Card from "./components/Card";
+import Recommend from "./components/Recommend";
 
 function App() {
   const mockData = {
@@ -14,6 +15,10 @@ function App() {
       "疫情期間，大家要多注意勤洗手，小心健康！",
       "若您已經施打完疫苗，可以透過小幫手回報給我們唷！",
     ],
+    recommend:{
+      code:"Homexin1314520",
+      credit:"100"
+    },
     memberInfo: {
       basic: {
         name: "李姍姍",
@@ -29,10 +34,9 @@ function App() {
       bank: {
         bankCode: "812",
         account: "03112340210583",
-      },
+      }
     },
   };
-
   return (
     <div className="homePage-basic">
       <User data={mockData.user}/>
@@ -44,6 +48,7 @@ function App() {
           <Card type={0} title="平台任務" />
         </div>
       </div>
+      <Recommend data={mockData.recommend}/>
     </div>
   );
 }

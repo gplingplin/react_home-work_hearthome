@@ -1,12 +1,14 @@
 .homePage-basic {
   background-color: #3c622b;
+  
+  width: 100%;
   height: 1000px;
   padding-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   .main {
-    max-width: 327px;
+    margin-bottom: 24px;
   }
   .card-block {
     display: flex;

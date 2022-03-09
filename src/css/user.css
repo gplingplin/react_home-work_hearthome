@@ -1,0 +1,25 @@
+.user-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+.user-block .name-block {
+  margin-left: 18px;
+}
+
+.user-block .name-block .user-name {
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+}
+
+.user-block .name-block .user-status {
+  font-size: 15px;
+  color: #B9DEA8;
+}
+/*# sourceMappingURL=user.css.map */

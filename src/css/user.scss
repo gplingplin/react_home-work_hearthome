@@ -1,0 +1,17 @@
+.user-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    .name-block{
+        margin-left: 18px;
+        .user-name{
+            font-size: 30px;
+            font-weight: 900;
+            color: white;
+        }
+        .user-status{
+            font-size: 15px;
+            color: #B9DEA8;
+        }
+    }
+}
