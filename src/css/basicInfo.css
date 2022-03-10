@@ -1,0 +1,17 @@
+.basicInfo-block {
+  width: 90%;
+}
+
+.basicInfo-block h1 {
+  font-size: 25px;
+}
+
+.basicInfo-block .detail-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=basicInfo.css.map */

@@ -6,7 +6,7 @@ function Announcement({ data }) {
   return (
     <div className="announcement-block">
       <h1 className="title">公告</h1>
-      <Divider/>
+      <Divider variant="middle"/>
       <ul>
         {data.map((list, index) => (
           <li key={index}>{list}</li>
