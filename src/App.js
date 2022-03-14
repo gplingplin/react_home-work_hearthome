@@ -50,7 +50,7 @@ function App() {
         <Announcement data={mockData.announcement} />
         <div className="card-block">
           <Card cssType={1} title="會員資訊" cardType={0} />
-          <Card cssType={1} title="薪水查詢" cardType={1} test={setSalarySearch} />
+          <Card cssType={1} title="薪水查詢" cardType={1} isOpen={setSalarySearch} />
           <Card cssType={0} title="平台任務" cardType={2} />
         </div>
       </div>

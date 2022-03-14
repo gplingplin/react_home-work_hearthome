@@ -3,7 +3,7 @@ import Avatar from "@mui/material/Avatar";
 import BasicInfo from "./BasicInfo";
 import "../css/card.css";
 
-function Card({ cssType, title, cardType ,test}) {
+function Card({ cssType, title, cardType ,isOpen}) {
   const styleType = ["card-style card-main", "card-style card-sub"];
   const imgStyleType = ["img-position-block", "img-block"];
   const titleStyleType = ["mission-card-title", "card-title"];
@@ -13,7 +13,7 @@ function Card({ cssType, title, cardType ,test}) {
       case 0:
         return console.log("會員資訊");
       case 1:
-        return test(true);
+        return isOpen(true);
       case 2:
         return console.log("平台任務");
     }
